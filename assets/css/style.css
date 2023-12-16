@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none !important;
+    text-decoration: none !important;
+}
+
+:root {
+    /* font-size */
+    --fs-sm: 16px;
+    --fs-lg: 36px;
+    /* color */
+    --bs-border-blue: #128DFF;
+}
+
+.heading-1 {
+    color: var(--Gray, #808080);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: var(--fs-lg);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.number1 {
+    color: var(--Black, #000);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: var(--fs-lg);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text {
+    color: var(--Blue, #128DFF);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: var(--fs-sm);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.button {
+    color: var(--Blue, #128DFF);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: var(--fs-sm);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 13px 35px;
+    border: transparent;
+    border: 2px solid var(--bs-border-blue);
+    background: none;
+    border-radius: 4px;
+
+}
+
+.button:hover {
+    color: white;
+    background: var(--Gradient, linear-gradient(97deg, #128DFF -4.95%, #1444EF 109.04%));
+    /* background-color: var(--bs-border-blue); */
+}
+
+.text {
+    color: var(--Black, #000);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: var(--fs-sm);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.opicity {
+    opacity: 0.5;
+}
+
+.bg-color {
+    border-radius: 20px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
+}
+
+.padding {
+    padding: 57px 88px 34px 88px;
+}
+
+.w-138 {
+    width: 138px;
+}
+
+
+@media (max-width:576px) {
+    .heading-1 {
+        font-size: 20px;
+    }
+
+    /* .padding {
+        padding: 57px 20px 34px 20px;
+    } */
+}
